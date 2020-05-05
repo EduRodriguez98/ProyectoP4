@@ -86,7 +86,7 @@ void menuInicio() {
 		iniciarSesion();
 		break;
 	case 2:
-		//registrarUsuario();		Falta implementación
+		//registrarUsuarios(dhbd);
 		break;
 	case 3:
 		seleccionHotel();
