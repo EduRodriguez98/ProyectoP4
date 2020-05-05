@@ -2,7 +2,7 @@
  * main.cpp
  *
  *  Created on: 27 Apr 2020
- *      Author: Edu
+ *      Author: Edu, Diego & Adolfo
  */
 
 #include <iostream>
@@ -86,6 +86,7 @@ void menuInicio() {
 		iniciarSesion();
 		break;
 	case 2:
+
 		//registrarUsuarios(dhbd);
 		break;
 	case 3:
@@ -100,7 +101,7 @@ void menuInicio() {
 
 }
 
-void iniciarSesion() { //Para iniciar sesión consideramos que hacerlo desde C sería más complicado que en c++ asi pues hemos dejado esta funcionalidad para más adelante
+void iniciarSesion() {
 
 	char s1[15], s2[15];
 	char nombreUsuario[15];
@@ -403,7 +404,7 @@ void seleccionCiudad() {
 				cout << "2. Ruta de SPAs\n" << endl;
 				cout << "3. Actividad maritima\n" << endl;
 				cout << "4. Ruta ligera, por monte\n" << endl;
-				cout << "5. Ruta dura, por montaña\n" << endl;
+				cout << "5. Ruta dura, por montaï¿½a\n" << endl;
 				cout << "6. Atras\n" << endl;
 
 				cin >> s10;
@@ -434,7 +435,7 @@ void seleccionCiudad() {
 				break;
 			case 5:
 				cout
-						<< "Su reserva en el hotel de Bilbao y actividad ruta dura, por montaña se ha realizado con exito!\n"
+						<< "Su reserva en el hotel de Bilbao y actividad ruta dura, por montaï¿½a se ha realizado con exito!\n"
 						<< endl;
 				break;
 			case 6:
@@ -615,7 +616,7 @@ void seleccionCiudad() {
 
 				cout << "1. Visita cultural\n" << endl;
 				cout << "2. Ruta de SPAs\n" << endl;
-				cout << "3. Ruta dura, por montaña\n" << endl;
+				cout << "3. Ruta dura, por montaï¿½a\n" << endl;
 				cout << "4. Atras\n" << endl;
 
 				cin >> s16;
@@ -799,7 +800,7 @@ int registrarUsuarios(sqlite3 *dhdb) {
  FILE *f;
  int c;
 
- f = fopen ("ReservaDH.txt", "r");//rb dice en el video que es más rápido, usamos la que prefirais
+ f = fopen ("ReservaDH.txt", "r");//rb dice en el video que es mï¿½s rï¿½pido, usamos la que prefirais
 
  if(f == NULL){
  printf("No se ha podido habrir el fichero");
