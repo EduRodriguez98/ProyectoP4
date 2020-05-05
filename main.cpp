@@ -84,14 +84,14 @@ void menuInicio() {
 	switch (atoi(s)) {
 	case 1:
 		iniciarSesion();
-		seleccionHotel();
+
 		break;
 	case 2:
 
 		//registrarUsuarios(dhbd);
 		break;
 	case 3:
-
+		seleccionHotel();
 		break;
 	case 4:
 		cout << "Vuelva cuando quiera" << endl;
