@@ -435,7 +435,7 @@ void seleccionCiudad() {
 				break;
 			case 5:
 				cout
-						<< "Su reserva en el hotel de Bilbao y actividad ruta dura, por montaï¿½a se ha realizado con exito!\n"
+						<< "Su reserva en el hotel de Bilbao y actividad ruta dura, por montaña se ha realizado con exito!\n"
 						<< endl;
 				break;
 			case 6:
